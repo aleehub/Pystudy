@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="165f43e0-52ed-41f6-a90f-00eec0d0c16a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Pystudy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-advanced/day14/模板替换功能/framework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>path</find>
+      <find>rfind</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/2-advanced/day13/1.闭包.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/primary/day12/main.py" />
+        <option value="$PROJECT_DIR$/primary/day12/data.txt" />
+        <option value="$PROJECT_DIR$/advanced/day7/1.html" />
+        <option value="$PROJECT_DIR$/myMind/彩票.py" />
+        <option value="$PROJECT_DIR$/advanced/day6/6.6.搭建Python自带静态web服务器.py" />
+        <option value="$PROJECT_DIR$/advanced/day6/6.6.静态web服务器.py" />
+        <option value="$PROJECT_DIR$/advanced/day3/1.多任务编程-进程.md" />
+        <option value="$PROJECT_DIR$/advanced/day3/2.进程(process).py" />
+        <option value="$PROJECT_DIR$/advanced/day3/3.多进程的使用.py" />
+        <option value="$PROJECT_DIR$/advanced/day3/4.获取进程编号.py" />
+        <option value="$PROJECT_DIR$/advanced/day3/5.进程执行带有参数的任务.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day3/5.进程执行带有参数的任务.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day3/6.进程的注意点.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/1.线程.md" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/2.多线程的使用.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/3.线程执行带有参数的任务.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/4.线程的注意点.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day3/？6.进程的注意点.py" />
+        <option value="$PROJECT_DIR$/practice/1..py" />
+        <option value="$PROJECT_DIR$/practice/1.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/5.线程互斥锁.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/6.死锁.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day4/7.进程和线程的对比.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day5/tcp网络应用程序开发流程.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day5/3.TCP服务端程序开发.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day5/2.tcp客户端程序开发.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day5/4.TCP服务端程序开发.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day5/5.TCP网络应用程序的注意点.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day5/6.多任务版TCP服务端程序开发.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day6/2.静态Web服务器-多任务版.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day6/4.静态Web服务器-命令行启动动态绑定端口号.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day6/3.静态Web服务器-面向对象开发.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day10/1.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/1.闭包.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/2.闭包的使用.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/3.修改闭包内使用的外部变量.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/4.装饰器.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/5.装饰器的使用.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/6.通用装饰器的使用.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day13/7.类装饰器.py" />
+        <option value="$PROJECT_DIR$/1-primary/day7/reNameDir/亲爱的，热爱的第1集_1080p.ts" />
+        <option value="$PROJECT_DIR$/1-primary/day7/reNameDir/亲爱的，热爱的第2集_1080p.ts" />
+        <option value="$PROJECT_DIR$/1-primary/day7/4.批量修改文件名.py" />
+        <option value="$PROJECT_DIR$/myIdea/批量修改文件名.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14/1.静态web服务器.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14/framwork.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14/模板替换功能/静态web服务器.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14/模板替换功能/framework.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14/框架程序开发/静态web服务器.py" />
+        <option value="$PROJECT_DIR$/2-advanced/day14/模板替换功能/template/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pystudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python-100-Days-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\传播智客\Pystudy\2-advanced\day14\模板替换功能" />
+      <recent name="F:\传播智客\Pystudy\2-advanced\day14\框架程序开发" />
+      <recent name="F:\传播智客\Pystudy\2-advanced\day14" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\传播智客\Pystudy\2-advanced\day14\模板替换功能" />
+      <recent name="F:\传播智客\Pystudy\myIdea" />
+      <recent name="$PROJECT_DIR$/advanced/day6" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.1.静态web服务器">
+    <configuration name="批量修改文件名" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myIdea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myIdea/批量修改文件名.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1.静态web服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-advanced/day14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\传播智客\Pystudy\2-advanced\day14\框架程序开发\静态web服务器.py" />
+      <option name="PARAMETERS" value="9090" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.批量修改文件名" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-primary/day7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-primary/day7/4.批量修改文件名.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.类装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-advanced/day13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-advanced/day13/7.类装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="framwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2-advanced/day14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\传播智客\Pystudy\2-advanced\day14\框架程序开发\framwork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.7.类装饰器" />
+      <item itemvalue="Python.4.批量修改文件名" />
+      <item itemvalue="Python.framwork" />
+      <item itemvalue="Python.1.静态web服务器" />
+      <item itemvalue="Python.批量修改文件名" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1.静态web服务器" />
+        <item itemvalue="Python.批量修改文件名" />
+        <item itemvalue="Python.framwork" />
+        <item itemvalue="Python.4.批量修改文件名" />
+        <item itemvalue="Python.7.类装饰器" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="165f43e0-52ed-41f6-a90f-00eec0d0c16a" name="Default Changelist" comment="" />
+      <created>1555661709928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555661709928</updated>
+      <workItem from="1555661712115" duration="2122000" />
+      <workItem from="1555665384310" duration="4080000" />
+      <workItem from="1555839259796" duration="6421000" />
+      <workItem from="1555896966373" duration="3900000" />
+      <workItem from="1555904916291" duration="16033000" />
+      <workItem from="1562745655410" duration="4084000" />
+      <workItem from="1562806517173" duration="11727000" />
+      <workItem from="1562825190378" duration="13350000" />
+      <workItem from="1562890371180" duration="32657000" />
+      <workItem from="1562977351596" duration="6453000" />
+      <workItem from="1562993288924" duration="25383000" />
+      <workItem from="1563073842798" duration="20265000" />
+      <workItem from="1563110932350" duration="30334000" />
+      <workItem from="1563275571841" duration="21425000" />
+      <workItem from="1563446713799" duration="7384000" />
+      <workItem from="1563499790976" duration="9435000" />
+      <workItem from="1563521528179" duration="2988000" />
+      <workItem from="1563583318954" duration="2211000" />
+      <workItem from="1563845771657" duration="19857000" />
+      <workItem from="1563928780090" duration="10305000" />
+      <workItem from="1563952203706" duration="439000" />
+      <workItem from="1563953827575" duration="11740000" />
+      <workItem from="1564019369325" duration="1059000" />
+      <workItem from="1564020459320" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="263721000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="0" width="960" height="1080" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5503212" visible="true" weight="0.38939053" />
+      <window_info id="Structure" order="1" sideWeight="0.4496788" side_tool="true" weight="0.17972103" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010707" side_tool="true" weight="0.17972103" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2576419" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3978142" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32869378" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32976446" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32969433" />
+      <window_info anchor="bottom" id="TypeScript" order="13" weight="0.26445395" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pystudy$8___str__.coverage" NAME="8.__str__方法 Coverage Results" MODIFIED="1563021767080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_tcp.coverage" NAME="2.tcp客户端程序开发 Coverage Results" MODIFIED="1563328458839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day5" />
+    <SUITE FILE_PATH="coverage/Pystudy$socket_server_multitask.coverage" NAME="socket_server_multitask Coverage Results" MODIFIED="1555845613230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/Pystudy$input.coverage" NAME="input输入 Coverage Results" MODIFIED="1562813161194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day1" />
+    <SUITE FILE_PATH="coverage/Pystudy$process_kwargs.coverage" NAME="process_kwargs Coverage Results" MODIFIED="1555668005636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$5_2.coverage" NAME="5.2有序字典 Coverage Results" MODIFIED="1562913764198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$3_.coverage" NAME="3.修改闭包内使用的外部变量 Coverage Results" MODIFIED="1563868720372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day13" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_Web_.coverage" NAME="2.静态Web服务器-多任务版 Coverage Results" MODIFIED="1563457011138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$get_process_ppid.coverage" NAME="get_process_ppid Coverage Results" MODIFIED="1562898010202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$socket_webserver2.coverage" NAME="socket_webserver2 Coverage Results" MODIFIED="1555920555571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$4_1.coverage" NAME="4.1函数参数 Coverage Results" MODIFIED="1562919019306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day4" />
+    <SUITE FILE_PATH="coverage/Pystudy$5_self.coverage" NAME="5.在方法内通过self获取对象属性 Coverage Results" MODIFIED="1563019125969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$6_.coverage" NAME="6.通用装饰器的使用 Coverage Results" MODIFIED="1563886679883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day13" />
+    <SUITE FILE_PATH="coverage/Pystudy$framwork.coverage" NAME="framwork Coverage Results" MODIFIED="1563967912796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day14" />
+    <SUITE FILE_PATH="coverage/Pystudy$5___.coverage" NAME="5.学生管理系统(文件版) Coverage Results" MODIFIED="1562999047453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day7" />
+    <SUITE FILE_PATH="coverage/Pystudy$1_4.coverage" NAME="1.4字符串常见操作 Coverage Results" MODIFIED="1562838406418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$thread_attention.coverage" NAME="thread_attention Coverage Results" MODIFIED="1555725308393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_2.coverage" NAME="2.2列表的循环遍历 Coverage Results" MODIFIED="1562891027129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$5_1.coverage" NAME="5.1遍历 Coverage Results" MODIFIED="1562913626842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$6___init__.coverage" NAME="6.__init__方法 Coverage Results" MODIFIED="1563020353061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$1.coverage" NAME="1 Coverage Results" MODIFIED="1563846801008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day10" />
+    <SUITE FILE_PATH="coverage/Pystudy$demo.coverage" NAME="demo Coverage Results" MODIFIED="1562979614611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day7" />
+    <SUITE FILE_PATH="coverage/Pystudy$socket_server.coverage" NAME="socket_server Coverage Results" MODIFIED="1562998012696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/day5" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_.coverage" NAME="2.闭包的使用 Coverage Results" MODIFIED="1563867721249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day13" />
+    <SUITE FILE_PATH="coverage/Pystudy$process_study.coverage" NAME="process-study Coverage Results" MODIFIED="1555663570783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_4.coverage" NAME="2.4列表的嵌套 Coverage Results" MODIFIED="1562903822923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$output.coverage" NAME="output输出 Coverage Results" MODIFIED="1562812121852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day1" />
+    <SUITE FILE_PATH="coverage/Pystudy$get_process_pid.coverage" NAME="get_process_pid Coverage Results" MODIFIED="1562897911287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$socket_webserver.coverage" NAME="socket_webserver Coverage Results" MODIFIED="1555917569922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$6_TCP.coverage" NAME="6.多任务版TCP服务端程序开发 Coverage Results" MODIFIED="1563454365602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day5" />
+    <SUITE FILE_PATH="coverage/Pystudy$2.coverage" NAME="2 Coverage Results" MODIFIED="1563009664085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$main.coverage" NAME="main Coverage Results" MODIFIED="1563149359480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day12" />
+    <SUITE FILE_PATH="coverage/Pystudy$for.coverage" NAME="for循环 Coverage Results" MODIFIED="1562829583629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day2" />
+    <SUITE FILE_PATH="coverage/Pystudy$if.coverage" NAME="if嵌套 Coverage Results" MODIFIED="1562827482588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day2" />
+    <SUITE FILE_PATH="coverage/Pystudy$variable.coverage" NAME="variable变量 Coverage Results" MODIFIED="1562809531695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day1" />
+    <SUITE FILE_PATH="coverage/Pystudy$10_.coverage" NAME="10.烤地瓜 Coverage Results" MODIFIED="1563024147694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$5_.coverage" NAME="5.装饰器的使用 Coverage Results" MODIFIED="1563872601403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day13" />
+    <SUITE FILE_PATH="coverage/Pystudy$tagName.coverage" NAME="tagName标识符 Coverage Results" MODIFIED="1562810415210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day1" />
+    <SUITE FILE_PATH="coverage/Pystudy$1_.coverage" NAME="1.闭包 Coverage Results" MODIFIED="1563865852709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day13" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_3.coverage" NAME="2.3列表的相关操作 Coverage Results" MODIFIED="1562900063876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$9___del__.coverage" NAME="9.__del__方法 Coverage Results" MODIFIED="1563023503402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$7___init__.coverage" NAME="7.有参数的__init__方法 Coverage Results" MODIFIED="1563020806220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day8" />
+    <SUITE FILE_PATH="coverage/Pystudy$8_.coverage" NAME="8.私有权限 Coverage Results" MODIFIED="1563070831289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day9" />
+    <SUITE FILE_PATH="coverage/Pystudy$helloWorld.coverage" NAME="helloWorld Coverage Results" MODIFIED="1562808119263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day1" />
+    <SUITE FILE_PATH="coverage/Pystudy$6_6_web.coverage" NAME="6.6.静态web服务器 Coverage Results" MODIFIED="1563180059991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$4_.coverage" NAME="4.批量修改文件名 Coverage Results" MODIFIED="1563954736709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-primary/day7" />
+    <SUITE FILE_PATH="coverage/Pystudy$9_2.coverage" NAME="9.引用2 Coverage Results" MODIFIED="1562932257675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day5" />
+    <SUITE FILE_PATH="coverage/Pystudy$4_3.coverage" NAME="4.3字典的其他操作 Coverage Results" MODIFIED="1562912783210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$start_md.coverage" NAME="start.md Coverage Results" MODIFIED="1562915602031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day4" />
+    <SUITE FILE_PATH="coverage/Pystudy$while.coverage" NAME="while嵌套打印三角形 Coverage Results" MODIFIED="1562829351061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day2" />
+    <SUITE FILE_PATH="coverage/Pystudy$2_1.coverage" NAME="2.1列表 Coverage Results" MODIFIED="1562890927757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$3_Web_.coverage" NAME="3.静态Web服务器-面向对象开发 Coverage Results" MODIFIED="1563522495307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$.coverage" NAME="批量修改文件名 Coverage Results" MODIFIED="1563970086493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myIdea" />
+    <SUITE FILE_PATH="coverage/Pystudy$7_.coverage" NAME="7.类装饰器 Coverage Results" MODIFIED="1563931034684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day13" />
+    <SUITE FILE_PATH="coverage/Pystudy$if_else.coverage" NAME="if-else Coverage Results" MODIFIED="1562825503367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day2" />
+    <SUITE FILE_PATH="coverage/Pystudy$process_args.coverage" NAME="process_args Coverage Results" MODIFIED="1555668057984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$4_Web_.coverage" NAME="4.静态Web服务器-命令行启动动态绑定端口号 Coverage Results" MODIFIED="1563522259363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$if_elif_else.coverage" NAME="if-elif-else Coverage Results" MODIFIED="1562827175820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day2" />
+    <SUITE FILE_PATH="coverage/Pystudy$socket_webserver_multitask.coverage" NAME="socket_webserver_multitask Coverage Results" MODIFIED="1555927077660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$4_2.coverage" NAME="4.2字典常见操作 Coverage Results" MODIFIED="1562911806277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day3" />
+    <SUITE FILE_PATH="coverage/Pystudy$socket_webserver3.coverage" NAME="socket_webserver3 Coverage Results" MODIFIED="1555935981292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/Pystudy$breakcontinue.coverage" NAME="break和continue Coverage Results" MODIFIED="1562830268894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/primary/day2" />
+    <SUITE FILE_PATH="coverage/Pystudy$1_web.coverage" NAME="1.静态web服务器 Coverage Results" MODIFIED="1563970937754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-advanced/day14" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day4/5.线程互斥锁.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day4/6.死锁.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day4/7.进程和线程的对比.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day5/3.TCP服务端程序开发.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day5/2.tcp客户端程序开发.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day5/1.tcp网络应用程序开发流程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/types.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/abc.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="566" column="8" selection-start-line="566" selection-start-column="8" selection-end-line="566" selection-end-column="8" />
+          <folding>
+            <element signature="e#274#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/socket.py" />
+    <entry file="file://$PROJECT_DIR$/2-advanced/day5/4.TCP服务端程序开发.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971763/_socket.py" />
+    <entry file="file:///usr/lib/python3.6/threading.py" />
+    <entry file="file://$PROJECT_DIR$/2-advanced/day5/5.TCP网络应用程序的注意点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="13" column="114" lean-forward="true" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day6/0.HTTP协议和静态Web服务器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day6/1.静态web服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day5/6.多任务版TCP服务端程序开发.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#252#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day6/2.静态Web服务器-多任务版.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day6/4.静态Web服务器-命令行启动动态绑定端口号.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day6/3.静态Web服务器-面向对象开发.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="e#149#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myIdea/记录.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myIdea/彩票.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/pymysql/cursors.py" />
+    <entry file="file://$PROJECT_DIR$/2-advanced/day10/1.py" />
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/2.闭包的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/3.修改闭包内使用的外部变量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/4.装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/5.装饰器的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971763/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/6.通用装饰器的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14.py" />
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/7.类装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day13/1.闭包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-primary/day7/reNameDir/亲爱的，热爱的第2集_1080p.ts" />
+    <entry file="file://$PROJECT_DIR$/1-primary/day7/reNameDir/亲爱的，热爱的第1集_1080p.ts" />
+    <entry file="file://$PROJECT_DIR$/1-primary/day7/reNameDir/亲爱的，热爱的(1).ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-primary/day7/reNameDir/亲爱的，热爱的(2).ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-primary/day7/4.批量修改文件名.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-primary/day7/2.文件的备份.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-primary/day3/1.4.字符串常见操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="11" lean-forward="true" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myIdea/批量修改文件名.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/静态web服务器/08-静态web服务器-支持命令行启动传递端口号.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2046" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/框架程序开发/framwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/模板替换功能/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/模板替换功能/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/模板替换功能/静态web服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="112" column="26" lean-forward="true" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/框架程序开发/静态web服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-advanced/day14/模板替换功能/framework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

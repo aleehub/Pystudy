@@ -1,0 +1,73 @@
+"""miniweb框架，负责处理动态资源请求"""
+
+import time
+
+# 获取首页数据
+
+def index():
+    # 响应状态
+
+    status = "200 OK"
+
+    response_header = [("Server","PWS1.0")]
+
+    # 处理后的数据
+
+    data = time.ctime()
+
+    return status, response_header,data
+
+
+
+# 没有找到动态资源
+
+def not_found():
+
+    # 响应状态
+
+    status= "404 Not Found"
+
+    # 响应头
+
+    response_header = [("Server","PWS1.0")]
+
+    # 处理后的数据
+
+    data = "not found"
+
+    return status ,response_header,data
+
+
+# 处理动态资源请求
+
+
+def handle_request(env):
+
+    request_path = env["request_path"]
+
+    # 获取首页数据
+    if request_path == "/index.html":
+
+        result = index()
+
+        return result
+
+    else:
+
+        # 没有找到动态资源
+
+        result = not_found()
+
+        return result
+
+
+
+
+
+
+
+
+
+
+
+
