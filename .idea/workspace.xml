@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="always test">
       <change beforePath="$PROJECT_DIR$/.idea/Pystudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pystudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="361">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+=======
+            <state relative-caret-position="462">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -121,8 +131,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564102745382</updated>
+<<<<<<< Updated upstream
       <workItem from="1564102756998" duration="10354000" />
       <workItem from="1564132167617" duration="3629000" />
+=======
+      <workItem from="1564102756998" duration="11819000" />
+      <workItem from="1564133337535" duration="1634000" />
+      <workItem from="1564135653077" duration="1923000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="nothing else just test">
       <created>1564108948237</created>
@@ -138,6 +154,7 @@
       <option name="project" value="LOCAL" />
       <updated>1564113992133</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
@@ -146,6 +163,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="926" y="27" width="993" height="1053" extended-state="4" />
+=======
+    <task id="LOCAL-00003" summary="new study">
+      <created>1564131406454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564131406454</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new study">
+      <created>1564137411215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564137411215</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new study">
+      <created>1564137419206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564137419206</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new study">
+      <created>1564137477797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564137477797</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15376000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+>>>>>>> Stashed changes
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21192758" />
@@ -208,8 +263,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="361">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+=======
+        <state relative-caret-position="462">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
