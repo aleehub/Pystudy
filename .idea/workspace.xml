@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Pystudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pystudy/2-advanced/day15/1.property属性.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pystudy/2-advanced/day14/框架程序开发/framwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pystudy/2-advanced/day14/框架程序开发/framwork.py" afterDir="false" />
+    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="always test">
+      <change afterPath="$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/1.property属性.py">
+        <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -44,6 +39,7 @@
       <list>
         <option value="$PROJECT_DIR$/Pystudy/2-advanced/day14/框架程序开发/framwork.py" />
         <option value="$PROJECT_DIR$/Pystudy/2-advanced/day15/1.property属性.py" />
+        <option value="$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py" />
       </list>
     </option>
   </component>
@@ -83,21 +79,6 @@
               <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
               <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
               <item name="2-advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pystudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="2-advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-              <item name="框架程序开发" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pystudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
-              <item name="2-advanced" type="462c0819:PsiDirectoryNode" />
               <item name="day15" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -125,6 +106,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="1.property属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pystudy/2-advanced/day15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pystudy/2-advanced/day15/1.property属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1.property属性" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,12 +145,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564102745382</updated>
-      <workItem from="1564102756998" duration="4906000" />
+      <workItem from="1564102756998" duration="10354000" />
     </task>
+    <task id="LOCAL-00001" summary="nothing else just test">
+      <created>1564108948237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564108948238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="always test">
+      <created>1564113992133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564113992133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4906000" />
+    <option name="totallyTimeSpent" value="10354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1080" extended-state="0" />
@@ -151,13 +176,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32334048" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3231441" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32969433" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14847161" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,6 +196,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nothing else just test" />
+    <MESSAGE value="always test" />
+    <option name="LAST_COMMIT_MESSAGE" value="always test" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pystudy$1_property.coverage" NAME="1.property属性 Coverage Results" MODIFIED="1564111707141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pystudy/2-advanced/day15" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day14/框架程序开发/静态web服务器.py">
@@ -191,8 +224,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/1.property属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        <state relative-caret-position="2046">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
