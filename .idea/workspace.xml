@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="new study">
-      <change beforePath="$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -43,11 +44,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="562" />
+    <option name="y" value="15" />
     <option name="width" value="960" />
     <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -55,6 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,13 +70,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -129,7 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1564102745382</updated>
       <workItem from="1564102756998" duration="11819000" />
-      <workItem from="1564133337535" duration="411000" />
+      <workItem from="1564133337535" duration="1634000" />
+      <workItem from="1564135653077" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="nothing else just test">
       <created>1564108948237</created>
@@ -156,12 +160,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12230000" />
+    <option name="totallyTimeSpent" value="14738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6376975" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37246048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -174,7 +179,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3231441" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32879817" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32879817" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969433" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
