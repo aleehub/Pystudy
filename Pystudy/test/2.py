@@ -9,9 +9,6 @@
 # );
 
 
-
-
-
 import pymysql
 
 class Start(object):
@@ -30,12 +27,9 @@ class Start(object):
         def getname():
 
             name = input("请输入用户名:")
-
             if len(name) == 0 or len(name)>10:
                 print("用户名格式错误,请输入10位以内不为空的字符")
-
                 getname()
-
             else :
                 return name
 
@@ -44,17 +38,24 @@ class Start(object):
             passwd1 = input("请输入密码:")
 
             if len(passwd1) == 0:
-                print("密码格式错误,请输入10位以内不为空的字符")
-                getpasswd()
-            passwd2 = input("请确认密码:")
 
-            if passwd1 != passwd2:
-                print("两次密码不一致，请重新输入！")
+                print("密码格式错误,请输入10位以内不为空的字符")
+
                 getpasswd()
 
             else:
 
-                return passwd1
+                passwd2 = input("请确认密码:")
+
+                if passwd1 != passwd2:
+
+                    print("两次密码不一致，请重新输入！")
+
+                    getpasswd()
+
+                else:
+
+                    return passwd1
 
         self.name = getname()
 
@@ -73,6 +74,7 @@ class Start(object):
         sql1 = "select * from user where name = '%s';"%self.name
 
         row_count = cursor.execute(sql1)
+
         if row_count != 0:
             print("该用户名已存在, 请重新注册!")
 
@@ -81,7 +83,9 @@ class Start(object):
             self.register()
         else:
             sql2 = "insert into user(name,passwd) values('%s','%s');"%(self.name,self.passwd)
+
             row_count = cursor.execute(sql2)
+
             conn.commit()
             cursor.close()
             conn.close()
@@ -92,6 +96,7 @@ class Start(object):
     def login(self):
 
         print("欢迎来到登录页面:")
+
         def getname():
 
             name = input("请输入用户名:")
@@ -103,12 +108,14 @@ class Start(object):
 
             else :
                 return name
+
         def getpasswd():
 
             passwd = input("请输入密码:")
 
             if len(passwd) == 0:
                 print("密码格式错误,请输入10位以内不为空的字符")
+
                 getpasswd()
 
             else:
