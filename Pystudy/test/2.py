@@ -1,4 +1,5 @@
 # mysql  -uroot -pmysql
+
 # create database heima charset=utf8 ;
 # use heima;
 # create table students(
@@ -81,7 +82,7 @@ class Start(object):
         else:
             sql2 = "insert into user(name,passwd) values('%s','%s');"%(self.name,self.passwd)
             row_count = cursor.execute(sql2)
-            # cursor.commit()
+            conn.commit()
             cursor.close()
             conn.close()
             print("注册成功")
@@ -136,7 +137,7 @@ class Start(object):
             conn.close()
             self.login()
         else:
-            # cursor.commit()
+            conn.commit()
             cursor.close()
             conn.close()
             print("登录成功")
