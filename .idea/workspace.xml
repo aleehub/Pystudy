@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
     <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="always test">
-      <change beforePath="$PROJECT_DIR$/.idea/Pystudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pystudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pystudy/test/2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
+        <entry file="file://$PROJECT_DIR$/Pystudy/test/2.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-=======
-            <state relative-caret-position="462">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
->>>>>>> Stashed changes
+            <state relative-caret-position="1869">
+              <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -51,14 +40,15 @@
         <option value="$PROJECT_DIR$/Pystudy/2-advanced/day14/框架程序开发/framwork.py" />
         <option value="$PROJECT_DIR$/Pystudy/2-advanced/day15/1.property属性.py" />
         <option value="$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py" />
+        <option value="$PROJECT_DIR$/Pystudy/test/2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="926" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="925" />
     <option name="y" value="27" />
     <option name="width" value="993" />
-    <option name="height" value="1053" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -69,8 +59,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pystudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pystudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pystudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
+              <item name="Pystudy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.2">
     <configuration name="1.property属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pystudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,8 +126,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pystudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pystudy/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pystudy/test/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2" />
         <item itemvalue="Python.1.property属性" />
       </list>
     </recent_temporary>
@@ -131,14 +165,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564102745382</updated>
-<<<<<<< Updated upstream
       <workItem from="1564102756998" duration="10354000" />
       <workItem from="1564132167617" duration="3629000" />
-=======
-      <workItem from="1564102756998" duration="11819000" />
-      <workItem from="1564133337535" duration="1634000" />
-      <workItem from="1564135653077" duration="1923000" />
->>>>>>> Stashed changes
+      <workItem from="1564193876337" duration="5964000" />
+      <workItem from="1564200003343" duration="672000" />
+      <workItem from="1564206593479" duration="823000" />
     </task>
     <task id="LOCAL-00001" summary="nothing else just test">
       <created>1564108948237</created>
@@ -154,61 +185,22 @@
       <option name="project" value="LOCAL" />
       <updated>1564113992133</updated>
     </task>
-<<<<<<< Updated upstream
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13983000" />
+    <option name="totallyTimeSpent" value="21889000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="926" y="27" width="993" height="1053" extended-state="4" />
-=======
-    <task id="LOCAL-00003" summary="new study">
-      <created>1564131406454</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1564131406454</updated>
-    </task>
-    <task id="LOCAL-00004" summary="new study">
-      <created>1564137411215</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564137411215</updated>
-    </task>
-    <task id="LOCAL-00005" summary="new study">
-      <created>1564137419206</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564137419206</updated>
-    </task>
-    <task id="LOCAL-00006" summary="new study">
-      <created>1564137477797</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564137477797</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15376000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
->>>>>>> Stashed changes
+    <frame x="67" y="25" width="1849" height="882" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21192758" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2172524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14847161" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.111261874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,7 +227,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="always test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Pystudy$1_property.coverage" NAME="1.property属性 Coverage Results" MODIFIED="1564111707141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pystudy/2-advanced/day15" />
+    <SUITE FILE_PATH="coverage/Pystudy$2.coverage" NAME="2 Coverage Results" MODIFIED="1564206674315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pystudy/test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day14/框架程序开发/静态web服务器.py">
@@ -263,13 +255,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pystudy/2-advanced/day15/2.with语句和上下文管理器.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-=======
-        <state relative-caret-position="462">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
->>>>>>> Stashed changes
+        <state relative-caret-position="399">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pystudy/test/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
         </state>
       </provider>
     </entry>
