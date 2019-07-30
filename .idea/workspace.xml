@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="always test">
-      <change afterPath="$PROJECT_DIR$/Pystudy/3-Django/day1-redis数据库/redis.mmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pystudy/3-Django/day1-redis数据库/redis介绍.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pystudy/myIdea/记录.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pystudy/myIdea/记录.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +44,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="882" />
     <option name="width" value="960" />
     <option name="height" value="1046" />
   </component>
@@ -341,7 +336,7 @@
       <workItem from="1564484111626" duration="72000" />
       <workItem from="1564484278927" duration="11000" />
       <workItem from="1564484314572" duration="1904000" />
-      <workItem from="1564486246464" duration="4919000" />
+      <workItem from="1564486246464" duration="5816000" />
     </task>
     <task id="LOCAL-00001" summary="nothing else just test">
       <created>1564108948237</created>
@@ -357,14 +352,35 @@
       <option name="project" value="LOCAL" />
       <updated>1564113992133</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="开始学习django&#10;redis 非关系型数据库">
+      <created>1564491246605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564491246605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="开始学习django&#10;redis 非关系型数据库">
+      <created>1564492046329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564492046329</updated>
+    </task>
+    <task id="LOCAL-00005" summary="开始学习django&#10;redis 非关系型数据库">
+      <created>1564492065831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564492065831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33081000" />
+    <option name="totallyTimeSpent" value="33978000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1046" extended-state="0" />
+    <frame x="882" y="0" width="960" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.35553047" />
@@ -396,7 +412,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nothing else just test" />
     <MESSAGE value="always test" />
-    <option name="LAST_COMMIT_MESSAGE" value="always test" />
+    <MESSAGE value="开始学习django&#10;redis 非关系型数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始学习django&#10;redis 非关系型数据库" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pystudy$.coverage" NAME="彩票 Coverage Results" MODIFIED="1564484398825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pystudy/myIdea" />
