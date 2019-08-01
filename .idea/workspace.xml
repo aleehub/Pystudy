@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="开始学习django&#10;redis 非关系型数据库">
-      <change afterPath="$PROJECT_DIR$/Pystudy/3-Django/day1-redis数据库/redisOperation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/argsTest/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pystudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pystudy.iml" afterDir="false" />
+    <list default="true" id="a4deef0a-3d2f-44c4-921a-6c9b748cf7d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pystudy/3-Django/day1-redis数据库/redis.mmd" beforeDir="false" afterPath="$PROJECT_DIR$/Pystudy/3-Django/day1-redis数据库/redis.mmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../meiduoMall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../meiduoMall/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,37 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/djangoTest/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#644#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/argsTest/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/argsTest/urls.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,9 +64,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -114,6 +78,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="NBKnowledgePane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,14 +120,12 @@
               <item name="3-Django" type="462c0819:PsiDirectoryNode" />
               <item name="day2-django" type="462c0819:PsiDirectoryNode" />
               <item name="djangoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="argsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="djangoTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="NBKnowledgePane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +430,8 @@
       <workItem from="1564486246464" duration="5816000" />
       <workItem from="1564536459882" duration="6361000" />
       <workItem from="1564543274932" duration="6684000" />
-      <workItem from="1564620513388" duration="10629000" />
+      <workItem from="1564620513388" duration="10757000" />
+      <workItem from="1564647274195" duration="1732000" />
     </task>
     <task id="LOCAL-00001" summary="nothing else just test">
       <created>1564108948237</created>
@@ -503,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564492065831</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Django-day1">
+      <created>1564647149485</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564647149485</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57652000" />
+    <option name="totallyTimeSpent" value="59512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,10 +491,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
+    <frame x="960" y="0" width="960" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" weight="0.36568847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.3758465" />
       <window_info id="Structure" order="1" sideWeight="0.5010917" side_tool="true" weight="0.36568847" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -575,7 +546,8 @@
     <MESSAGE value="nothing else just test" />
     <MESSAGE value="always test" />
     <MESSAGE value="开始学习django&#10;redis 非关系型数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始学习django&#10;redis 非关系型数据库" />
+    <MESSAGE value="Django-day1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Django-day1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pystudy$.coverage" NAME="彩票 Coverage Results" MODIFIED="1564484398825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pystudy/myIdea" />
@@ -738,16 +710,6 @@
     <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/argsTest/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/djangoTest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#644#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/argsTest/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -755,6 +717,23 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pystudy/3-Django/day2-django/djangoTest/djangoTest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#644#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pystudy/1-primary/day3/2.3.列表的相关操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
