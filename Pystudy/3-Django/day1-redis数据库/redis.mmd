@@ -319,8 +319,6 @@ slaveof</pre>
 </pre>
 
 ### String
-> collapsed=`true`
-
 - NOTE
 <pre>字符串类型是 Redis 中最为基础的数据存储类型，
 它在 Redis 中是二进制安全的，
@@ -329,8 +327,6 @@ slaveof</pre>
 在Redis中字符串类型的Value最多可以容纳的数据长度是512M。</pre>
 
 #### 保存
-> collapsed=`true`
-
 
 ##### 设置键值
 - NOTE
@@ -368,8 +364,6 @@ slaveof</pre>
 </pre>
 
 #### 获取
-> collapsed=`true`
-
 
 ##### 获取
 - NOTE
@@ -391,8 +385,6 @@ slaveof</pre>
 </pre>
 
 #### 删除
-> collapsed=`true`
-
 
 ##### 删除键
 - NOTE
@@ -402,15 +394,11 @@ slaveof</pre>
 </pre>
 
 ### Hash
-> collapsed=`true`
-
 - NOTE
 <pre> hash⽤于存储对象，对象的结构为属性、值
     值的类型为string</pre>
 
 #### 增加、修改
-> collapsed=`true`
-
 - NOTE
 <pre>MISCONF Redis is configured to save RDB snapshots, 
 but is currently not able to persist on disk. 
@@ -448,8 +436,6 @@ Redis被配置为保存数据库快照，
 </pre>
 
 #### 获取
-> collapsed=`true`
-
 
 ##### 获取键的所有属性
 - NOTE
@@ -488,8 +474,6 @@ Redis被配置为保存数据库快照，
 </pre>
 
 #### 删除
-> collapsed=`true`
-
 
 ##### 删除整个hash键及值
 - NOTE
@@ -598,5 +582,324 @@ Redis被配置为保存数据库快照，
 </pre>
 
 ### Set
+- NOTE
+<pre>无序集合
+元素为string类型
+元素具有唯⼀性，不重复
+说明：对于集合没有修改操作
+</pre>
+
+#### 增加
+- NOTE
+<pre>sadd key member1 member2 ...
+
+例1：向键'a3'的集合中添加元素'zhangsan'、'lisi'、'wangwu'
+
+    sadd a3 zhangsan sili wangwu
+</pre>
+
+#### 获取
+- NOTE
+<pre>smembers key
+
+例2：获取键'a3'的集合中所有元素
+
+    smembers a3
+</pre>
+
+#### 删除
+- NOTE
+<pre>srem key
+
+例3：删除键'a3'的集合中元素'wangwu'
+
+    srem a3 wangwu
+</pre>
 
 ### Zset
+- NOTE
+<pre>sorted set，有序集合
+元素为string类型
+元素具有唯⼀性，不重复
+每个元素都会关联⼀个double类型的score，表示权重，通过权重将元素从⼩到⼤排序
+说明：没有修改操作
+</pre>
+
+#### 增加
+- NOTE
+<pre>zadd key score1 member1 score2 member2 ...
+
+例1：向键'a4'的集合中添加元素'lisi'、'wangwu'、'zhaoliu'、'zhangsan'，
+权重分别为4、5、6、3
+
+    zadd a4 4 lisi 5 wangwu 6 zhaoliu 3 zhangsan
+
+</pre>
+
+#### 获取
+- NOTE
+<pre>返回指定范围内的元素
+start、stop为元素的下标索引
+索引从左侧开始，第⼀个元素为0
+
+索引可以是负数，表示从尾部开始计数，如-1表示最后⼀个元素</pre>
+
+##### 获得指定范围的元素
+- NOTE
+<pre>zrange key start stop
+
+例2：获取键'a4'的集合中所有元素
+
+    zrange a4 0 -1
+</pre>
+
+##### 返回score值在min和max之间的成员
+- NOTE
+<pre>zrangebyscore key min max
+
+例3：获取键'a4'的集合中权限值在5和6之间的成员
+
+    zrangebyscore a4 5 6
+</pre>
+
+##### 返回成员member的score值
+- NOTE
+<pre>zscore key member
+
+例4：获取键'a4'的集合中元素'zhangsan'的权重
+
+    zscore a4 zhangsan
+</pre>
+
+#### 删除
+
+##### 删除指定元素
+- NOTE
+<pre>zrem key member1 member2 ...
+
+例5：删除集合'a4'中元素'zhangsan'
+
+    zrem a4 zhangsan
+</pre>
+
+##### 删除权重在指定范围的元素
+- NOTE
+<pre>zremrangebyscore key min max
+
+例6：删除集合'a4'中权限在5、6之间的元素
+
+    zremrangebyscore a4 5 6
+</pre>
+
+## 与python的交互
+> collapsed=`true`,leftSide=`true`
+
+
+### 安装包
+> collapsed=`true`
+
+- LINK
+<pre>https://github.com/andymccurdy/redis-py</pre>
+
+#### 虚拟环境，联网安装redis
+> collapsed=`true`
+
+
+##### pip install redis
+
+#### 虚拟环境联网安装包
+> collapsed=`true`,leftSide=`true`
+
+
+##### easy\_install redis
+
+#### redis包的源码，源码安装
+> leftSide=`true`
+
+- NOTE
+<pre>一步步执行 wget https://github.com/andymccurdy/redis-py/archive/master.zip
+unzip master.zip
+cd redis-py-master
+sudo python setup.py install</pre>
+
+### 调用模块 
+> collapsed=`true`,leftSide=`true`
+
+
+#### 引入模块
+> collapsed=`true`
+
+- NOTE
+<pre>这个模块中提供了StrictRedis对象(Strict严格)，⽤
+用于连接redis服务器，
+并按照不同类型提供 了不同方法，进行交互操作</pre>
+
+##### from redis import \*
+
+### StrictRedis对象
+> collapsed=`true`,leftSide=`true`
+
+
+#### 创建对象
+> collapsed=`true`
+
+- NOTE
+<pre>通过init创建对象，
+指定参数host、port与指定的服务器和端⼝连接，
+host默认为localhost，port默认为6379，db默认为0
+
+sr = StrictRedis(host = 'localhost' ,port = 6379 , db=0)
+
+简写
+
+sr = StrictRedis()
+
+</pre>
+
+##### string
+> collapsed=`true`
+
+
+###### set
+
+###### setx
+> leftSide=`true`
+
+
+###### mset
+> leftSide=`true`
+
+
+###### append
+> leftSide=`true`
+
+
+###### get
+> leftSide=`true`
+
+
+###### mget
+> leftSide=`true`
+
+
+###### key
+> leftSide=`true`
+
+
+##### keys
+> collapsed=`true`,leftSide=`true`
+
+
+###### exists
+
+###### type
+> leftSide=`true`
+
+
+###### delete
+> leftSide=`true`
+
+
+###### expire
+> leftSide=`true`
+
+
+###### getrange
+> leftSide=`true`
+
+
+###### ttl
+> leftSide=`true`
+
+
+##### hash
+> collapsed=`true`,leftSide=`true`
+
+
+###### hset
+
+###### hmset
+> leftSide=`true`
+
+
+###### hkeys
+> leftSide=`true`
+
+
+###### hget
+> leftSide=`true`
+
+
+###### hmget
+> leftSide=`true`
+
+
+###### hvals
+> leftSide=`true`
+
+
+###### hdel
+> leftSide=`true`
+
+
+##### list
+> collapsed=`true`,leftSide=`true`
+
+
+###### lpush
+
+###### rpush
+
+###### linsert
+> leftSide=`true`
+
+
+###### lrange
+> leftSide=`true`
+
+
+###### lset
+> leftSide=`true`
+
+
+###### lrem
+> leftSide=`true`
+
+
+##### set
+> collapsed=`true`,leftSide=`true`
+
+
+###### sadd
+
+###### smembers
+
+###### srem
+> leftSide=`true`
+
+
+##### zset
+> collapsed=`true`,leftSide=`true`
+
+
+###### zadd
+
+###### zrange
+> leftSide=`true`
+
+
+###### zrangebyscore
+> leftSide=`true`
+
+
+###### zscore
+> leftSide=`true`
+
+
+###### zrem
+> leftSide=`true`
+
+
+###### zremrangebyscore
+> leftSide=`true`
+
