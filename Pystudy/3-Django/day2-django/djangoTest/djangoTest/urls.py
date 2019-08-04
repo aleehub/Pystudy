@@ -16,9 +16,11 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 import users.urls
-
+import argsTest.urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^users/',include(users.urls,namespace='users')),
-    url(r'^argsTest/',include("argsTest.urls",namespace='argsTest'))
+    # url(r'^users/',include(users.urls)),
+    url(r'^argsTest/',include(argsTest.urls,namespace='argsTest')),
+    # url(r'^argsTest/',include("argsTest.urls")),
 ]

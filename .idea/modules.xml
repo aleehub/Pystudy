@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Pystudy.iml" filepath="$PROJECT_DIR$/.idea/Pystudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Python-100-Days-master/.idea/Python-100-Days-master.iml" filepath="$PROJECT_DIR$/../Python-100-Days-master/.idea/Python-100-Days-master.iml" />
-    </modules>
-  </component>
-</project>
