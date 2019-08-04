@@ -1,8 +1,12 @@
+import json
+
 from django.shortcuts import render
 from django.urls import reverse
 from django.http import HttpResponse
 
 # Create your views here.
+from django.utils import jslex
+
 
 def index(request):
 
@@ -41,3 +45,106 @@ def weather2(request,year,city):
     print(f"{year}")
 
     return HttpResponse("天气2")
+# 1.get提交路径参数
+# Django中的QueryDict对象
+# 定义在django.http.QueryDict
+# HttpRequest对象的属性 GET/POST都是QueryDict类型的对象
+# 与python字典不同，QueryDict类型的对象用来处理同一个键带有多个值的情况
+def test1(request):
+
+    # 用postman测试，输入一个路径参数，
+    # localhost:8000/argsTest/?key1=1
+    # request对象的GET属性为django下的查询字典对象
+    # 值都为一个列表
+
+    print(request.GET,type(request.GET))
+
+    # < QueryDict: {'key1': ['2'], 'key2': ['3', '4', '5']} >
+    # <class 'django.http.request.QueryDict'>
+
+    dic1= request.GET.get("key1")
+
+    # 当传递参数存在多个值时，用get获取参数值，只会获取到最后一个值
+    dic2 =request.GET.get("key2")
+    # 而当用getlist时则可以获取多个值
+    dic2 =request.GET.getlist("key2")
+
+    print(dic1)
+
+    print(dic2)
+
+    return HttpResponse("test1")
+
+
+# 2.post请求体表单提交方式
+# 当采用表单提交方式时。django框架自动提供了一个csrf防护，用来阻止第三方的非法提交
+# 这需要获取一个csrf秘钥，才能成功提交，否则会被拦截
+# 如果使用第三方的测试工具测试时，则需要到主程序设置页面，将中间件的csrf中间件给注释掉
+# 'django.middleware.csrf.CsrfViewMiddleware',
+
+def test2(request):
+
+    requestData = request.POST
+
+    a =requestData.get("key1")
+
+    b =requestData.getlist("key2")
+
+    print(a,b)
+
+    return HttpResponse("test2")
+
+# 3.post请求体提交非表单类型
+# 非表单类型的请求体数据。django无法自动解析，可以通过 request.body属性获取最原始的请求体数据，自己按照请求体格式 (Json,xml)进行解析
+# request.body返回bytes类型
+
+def test3(request):
+
+    # body属性获取的是二进制数据
+    request_byte = request.body
+
+    # 将二进制数据解码成字符串
+    request_str = request_byte.decode()
+
+    # 将解码来的json数据，用json中的loads函数生成一个python字典
+
+    # pycharm 快捷键 alt+enter导入相关包
+    # 生成一个python字典
+    req_data = json.loads(request_str)
+
+    print(req_data)
+
+    return HttpResponse("test3")
+
+# 4.请求头
+# 可以通过request.META属性获取请求头headers中的数据
+# request.META为字典类型
+
+# 常见的请求头如：
+#
+# CONTENT_LENGTH – The length of the request body (as a string).
+# CONTENT_TYPE – The MIME type of the request body.
+# HTTP_ACCEPT – Acceptable content types for the response.
+# HTTP_ACCEPT_ENCODING – Acceptable encodings for the response.
+# HTTP_ACCEPT_LANGUAGE – Acceptable languages for the response.
+# HTTP_HOST – The HTTP Host header sent by the client.
+# HTTP_REFERER – The referring page, if any.
+# HTTP_USER_AGENT – The client’s user-agent string.
+# QUERY_STRING – The query string, as a single (unparsed) string.
+# REMOTE_ADDR – The IP address of the client.
+# REMOTE_HOST – The hostname of the client.
+# REMOTE_USER – The user authenticated by the Web server, if any.
+# REQUEST_METHOD – A string such as "GET" or "POST".
+# SERVER_NAME – The hostname of the server.
+# SERVER_PORT – The port of the server (as a string).
+
+def get_headers(request):
+
+    print(request.path)
+    print(request.META)
+    for i ,j in request.META.items():
+
+        print(i,":",j)
+
+    print(request.META['CONTENT_TYPE'])
+    return HttpResponse('OK')
