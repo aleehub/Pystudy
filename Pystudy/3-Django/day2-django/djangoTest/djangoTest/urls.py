@@ -17,10 +17,21 @@ from django.conf.urls import url,include
 from django.contrib import admin
 import users.urls
 import argsTest.urls
+import  responseTest.urls
+import cookie_app.urls
+import  session_app.urls
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^users/',include(users.urls,namespace='users')),
     # url(r'^users/',include(users.urls)),
     url(r'^argsTest/',include(argsTest.urls,namespace='argsTest')),
     # url(r'^argsTest/',include("argsTest.urls")),
+    url(r'^responseTest/', include(responseTest.urls, namespace='responseTest')),
+
+    url(r'^cookie_app/', include(cookie_app.urls, namespace='cookie_app')),
+
+    url(r'^session_app/', include(session_app.urls, namespace='session_app')),
+
+
 ]

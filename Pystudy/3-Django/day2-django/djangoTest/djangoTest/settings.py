@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
+    'responseTest.apps.ResponsetestConfig',
+    'cookie_app.apps.CookieConfig',
+    'session_app.apps.SessionAppConfig',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +123,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+SESSION_ENGINE='django.contrib.sessions.backends.cached_db'
+
+CACHES = {
+    "default":{
+        "BACKEND":"django_redis.cache.RedisCache",
+        "LOCATION":"redis://127.0.0.1:6379/1",
+        "OPTIONS":{
+            "CLIENT_CLASS":"django_redis.client.DafaultClient",
+        }
+    }
+}
+SESSION_CACHE_ALIAS = "default"

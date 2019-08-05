@@ -125,12 +125,10 @@ keys 'a*'
 </pre>
 
 ## Redis安装
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ### Linux
-> collapsed=`true`
-
 
 #### step1:下载
 - NOTE
@@ -211,7 +209,7 @@ redis-check-rdb RDB文件检索工具</pre>
 sudo cp /usr/local/redis/redis.conf /etc/redis/</pre>
 
 ### Mac
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 #### 安装Homebrew
@@ -225,7 +223,7 @@ sudo cp /usr/local/redis/redis.conf /etc/redis/</pre>
 <pre>https://www.cnblogs.com/cloudshadow/p/mac_brew_install_redis.html</pre>
 
 ## Redis配置
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ### 配置文件
@@ -235,7 +233,7 @@ sudo cp /usr/local/redis/redis.conf /etc/redis/</pre>
 sudo vi /etc/redis/redis.conf</pre>
 
 ### 核心配置
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 - LINK
 <pre>http://blog.csdn.net/ljphilp/article/details/52934933</pre>
@@ -692,23 +690,19 @@ start、stop为元素的下标索引
 </pre>
 
 ## 与python的交互
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ### 安装包
-> collapsed=`true`
-
 - LINK
 <pre>https://github.com/andymccurdy/redis-py</pre>
 
 #### 虚拟环境，联网安装redis
-> collapsed=`true`
-
 
 ##### pip install redis
 
 #### 虚拟环境联网安装包
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ##### easy\_install redis
@@ -723,12 +717,10 @@ cd redis-py-master
 sudo python setup.py install</pre>
 
 ### 调用模块 
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 #### 引入模块
-> collapsed=`true`
-
 - NOTE
 <pre>这个模块中提供了StrictRedis对象(Strict严格)，⽤
 用于连接redis服务器，
@@ -737,12 +729,10 @@ sudo python setup.py install</pre>
 ##### from redis import \*
 
 ### StrictRedis对象
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 #### 创建对象
-> collapsed=`true`
-
 - NOTE
 <pre>通过init创建对象，
 指定参数host、port与指定的服务器和端⼝连接，
@@ -757,8 +747,6 @@ sr = StrictRedis()
 </pre>
 
 ##### string
-> collapsed=`true`
-
 
 ###### set
 
@@ -787,7 +775,7 @@ sr = StrictRedis()
 
 
 ##### keys
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ###### exists
@@ -813,7 +801,7 @@ sr = StrictRedis()
 
 
 ##### hash
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ###### hset
@@ -843,7 +831,7 @@ sr = StrictRedis()
 
 
 ##### list
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ###### lpush
@@ -867,7 +855,7 @@ sr = StrictRedis()
 
 
 ##### set
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ###### sadd
@@ -879,7 +867,7 @@ sr = StrictRedis()
 
 
 ##### zset
-> collapsed=`true`,leftSide=`true`
+> leftSide=`true`
 
 
 ###### zadd
