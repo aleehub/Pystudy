@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取标签元素</title>
+</head>
+<body>
+<div id="div1">这是第一个盒子</div>
+<script>
+
+    // 这里获取的是一个对象:[object HTMLDivElement]
+    var oDiv = document.getElementById("div1")
+    alert(oDiv) // [object HTMLDivElement]
+    alert(oDiv.value)  // undefined
+    alert(oDiv.innerHTML) //这是第一个盒子
+
+    // 打印的是一个完整的标签
+    // <div id="div1">这是第一个盒子</div>
+    console.log("打印的内容", oDiv)
+
+
+</script>
+
+
+</body>
+</html>

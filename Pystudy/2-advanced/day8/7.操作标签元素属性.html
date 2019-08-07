@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>操作标签元素属性</title>
+    <style>
+        .sty01 {
+            font-size: 20px;
+            color: red;
+        }
+
+        .sty02 {
+            font-size: 30px;
+            color: pink;
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- 1.属性的操作
+    首先获取 的页面标签元素。然后 就可以对页面标签元素的属性进行操作，属性的操作包括：
+        1.属性的读取
+        2.属性的设置
+
+    属性名在js中的写法
+        1.html的属性和js里面属性大多数写法一样，但是class属性写成classname
+        2.属性里面的属性，继续用.表示，比如style.color,属性名有横杠的改写成驼峰式
+         -->
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var oInput = document.getElementById('input1');
+            var oA = document.getElementById('link1');
+            // 读取属性值
+            var sValue = oInput.value;
+            var sType = oInput.type;
+            var sName = oInput.name;
+            var sLinks = oA.href;
+
+            // 操作class属性,需要写成“className”
+            oA.className = 'sty02';
+
+            // 写(设置)属性
+            oA.style.color = 'red';
+            oA.style.fontSize = sValue;
+        }
+
+    </script>
+</head>
+
+<body>
+<input id="input1" name="setsize" type="text" value="20px">
+<a class="sty01" href="#" id="link01">这是一个链接</a>
+
+</body>
+
+</html>
