@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+
+
+<body>
+
+    <!-- form标签。定义整体的表单域
+    action: 设置表单区域提交地址
+    method: 设置表单提交方式，一般有GET 和 POST 方式不区分大小写 -->
+    <form action="www.baidu.com",method="GET">
+        <p>
+            <laber>姓名：</laber>
+            <!--
+                name属性:表单元素的名称，该名称是提交数据是的参数名
+                value属性：表单元素的值，该值是提交数据时参数名对应的值
+            -->
+            <input type="text" name="name" value="11">
+
+        </p>
+        <p>
+            <laber>密码：</laber>
+            <input type="password" name="password" id="">
+        </p>
+        <p>
+            <laber>性别：</laber>
+            <input type="radio" name="gender" id="" value="male">男
+            <input type="radio" name="gender" id="female">女
+        </p>
+        <p>
+            <laber>爱好：</laber>
+            <input type="checkbox" name="like" id="" value="sing">sing
+            <input type="checkbox" name="like" id="" value="dance">dance
+            <input type="checkbox" name="like" id="" value="code">code
+        </p>
+        <p>
+            <laber>照片：</laber>
+            <input type="file" name="person_pic">
+        </p>
+        <p>
+            <laber>个人描述：</laber>
+            <!-- 文本域 ：多行文本输入框-->
+            <textarea name="" id="" cols="30" rows="10" name="description" ></textarea>
+        </p>
+        <p>
+            <laber>籍贯：</laber>
+
+            <!-- 表单元素的下拉列表标签，定义下拉列表 -->
+            <select name="site" id="">
+
+                <!-- 选项标签 -->
+                <option value="shanghai">上海</option>
+                <option value="beijing">北京</option>
+                <option value="shengzheng">深圳</option>
+                <option value="hubei">湖北</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="提交" name="">
+            <input type="reset" value="重置" name="">
+        </p>
+    </form>
+
+
+</body>
+</html>
