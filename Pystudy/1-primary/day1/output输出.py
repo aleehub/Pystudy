@@ -5,16 +5,16 @@ print("1.这是一个普通的输出")
 # 格式化输出
 
 # 单个字符
-age1 =10
+age1 = 10
 
-print("我今年%d岁" %age1)
+print("我今年%d岁" % age1)
 
 
 # 多个字符,当多个字符时，组成一个元组。
-age2=11
-name="liya"
+age2 = 11
+name = "liya"
 
-print("i am %d years old,my name is %s" %(age2,name))
+print("i am %d years old,my name is %s" % (age2, name))
 
 '''
 
@@ -37,37 +37,37 @@ print("i am %d years old,my name is %s" %(age2,name))
 print("123456789------")
 print("1234567890\n--------")
 
-#练一下
+# 练一下
 
-#1
-name="小明"
-print("my name is %s" %name)
+# 1
+name = "小明"
+print("my name is %s" % name)
 print(f"my name is {name}")
 
-#2
-student_no =1
+# 2
+student_no = 1
 
-print("my student id is %06d" %student_no)
+print("my student id is %06d" % student_no)
 
-#3
+# 3
 
 price = 9
 weight = 5
 money = price*weight
 
-print("苹果单价是%.02f元/斤,购买了%.02f斤,需要支付%.02f元" %(price,weight,money))
+print("苹果单价是%.02f元/斤,购买了%.02f斤,需要支付%.02f元" % (price, weight, money))
 
-#4
+# 4
 
-scale=10
+scale = 10
 
-print("数据比例是%.02f%%" %scale)
+print("数据比例是%.02f%%" % scale)
 
-#5
+# 5
 name = "itheima"
 QQ = 462523421
 phone = 13358254839
-address ="广东省深圳市"
+address = "广东省深圳市"
 
 print("==========我的名片==========")
 print(f"姓名：{name}")

@@ -4,8 +4,12 @@
 # 1 字符串
 name = "asdasd"
 
-for i in name :
-    print(i,end=" ")
+for i in name:
+    print(i, end=" ")
+
+else:
+    print()
+
 
 # 2 迭代器 range()
 

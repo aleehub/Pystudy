@@ -3,30 +3,29 @@
 # 通过while 来打印三角形
 
 # 1
+import random
+
 i = 0
 while i < 5:
     j = 0
-    while j <=5:
-        print("*",end = " ")
+    while j <= 5:
+        print("*", end=" ")
         j += 1
     print()
     i += 1
 
-#2
+# 2
 i = 1
-while i <=5:
-    j=1
+while i <= 5:
+    j = 1
     while j <= i:
-        print("*",end=" ")
+        print("*", end=" ")
         j += 1
     print()
     i += 1
 
-#3
-
-import random
+# 3
 while 1:
-
 
     player = int(input('请输入：剪刀（0） 石头（1） 布（2）：'))
 

@@ -14,7 +14,7 @@ def doubleChromosphere():
          else:                      # 如果存在，则重新循环
              continue
 
-    b = str(random.randint(1,16))   # 蓝球选号
+    b = str(random.randint(1, 16))  # 蓝球选号
 
     list.sort()                     # 将红球列表，排好序
 
@@ -27,7 +27,7 @@ def superLotto():
     list = []  # 创建空列表
     i = 0
     while i < 5:
-         a = random.randint(1,35)   # 红球球选号
+        a = random.randint(1, 35)  # 红球球选号
          if a not in list:          # 判断表内是否已存在随机数，如果不存在则将随机数加入空表
              list.append(a)
              i += 1
@@ -38,7 +38,7 @@ def superLotto():
 
     j = 0
     while j < 2:
-         b = str(random.randint(1,12))    # 蓝球选号
+        b = str(random.randint(1, 12))  # 蓝球选号
          if b not in list:          # 判断表内是否已存在随机数，如果不存在则将随机数加入空表
              list.append(b)
              j += 1
@@ -56,8 +56,8 @@ def duozhu(num,tag):
 
         for i in allList:
             for j in i:
-                print(j,end=" ",flush=True)
-                time.sleep(0.3)
+                print(j, end=" ", flush=True)
+                time.sleep(0.5)
             time.sleep(0.8)
             print("\n")
 
@@ -69,7 +69,7 @@ def duozhu(num,tag):
         for i in allList:
             for j in i:
                 print(j, end=" ", flush=True)
-                time.sleep(0.3)
+                time.sleep(0.5)
             time.sleep(0.8)
             print("\n")
 
@@ -83,7 +83,7 @@ while 1:
 
         break
 
-    elif tag !=1 and tag!=2:
+    elif tag != 1 and tag != 2:
 
         print("输入数字错误!\n请重新输入!")
         print("*"*30)
@@ -91,9 +91,9 @@ while 1:
     else:
         num = int(input("注数："))
 
-        value = duozhu(num,tag)
+        value = duozhu(num, tag)
 
-        f = open('记录.txt','a')
+        f = open('记录.txt', 'a')
 
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write("*"*30)

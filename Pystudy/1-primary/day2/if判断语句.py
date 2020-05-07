@@ -8,9 +8,9 @@ if 要判断的条件：
 
 # demo1
 
-age1 =30
+age1 = 30
 
-if age1 >=18:
+if age1 >= 18:
     print("我已经满18岁了")
 
 
@@ -18,7 +18,7 @@ if age1 >=18:
 
 age2 = 17
 
-if age2 >=18:
+if age2 >= 18:
     print("我已经满18岁了")
 
 
@@ -29,7 +29,7 @@ if age2 >=18:
 
 myAge = int(input("输入你的年龄:"))
 
-if myAge>=18:
+if myAge >= 18:
     print("哥，已成年，网吧可以去了！")
 else:
     print("未成年，去写作业！")

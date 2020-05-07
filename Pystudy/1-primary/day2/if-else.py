@@ -1,7 +1,7 @@
 # 满足多个条件
 
 
-height=0
+height = 0
 
 height = int(input("输入身高："))
 

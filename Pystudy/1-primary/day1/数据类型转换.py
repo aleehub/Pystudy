@@ -17,15 +17,15 @@
     3.bin() 2进制
 '''
 
-str1="10"
+str1 = "10"
 
 num1 = int(str1)
 print(num1)
 
-num2 = int(str1,8)
-print(num2)
+num2 = int(str1, 8)
+print(f'num2:{num2}')
 
-num3 = int(str1,16)
+num3 = int(str1, 16)
 print(num3)
 
 
