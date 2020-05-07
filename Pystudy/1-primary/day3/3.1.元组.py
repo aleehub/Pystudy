@@ -2,7 +2,7 @@
 
 # 定义元组
 
-a = (1,2,3)
+a = (1, 2, 3)
 
 # 访问元组
 
@@ -19,6 +19,6 @@ print(a[0])
 
 a = ('a', 'b', 'c', 'a', 'b')
 
-print(a.index("c",0,8))
+print(a.index("c", 0, 8))
 
 print(a.count("a"))

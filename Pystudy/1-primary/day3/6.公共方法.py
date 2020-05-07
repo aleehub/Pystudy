@@ -7,7 +7,7 @@
 # cmp(item1,item2)
 
 # 长度函数 计算容器中的元素个数
-#　len(item)
+# len(item)
 
 # max(item) 返回容器中的元素最大值
 # min(item) 返回容器中元素最小值
@@ -18,4 +18,3 @@
 # del(item[])
 
 # 多维列表元组访问
-

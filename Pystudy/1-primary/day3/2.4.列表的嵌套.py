@@ -7,14 +7,14 @@
 
 import random
 
-offices = [[],[],[]]
+offices = [[], [], []]
 
-names = ['a','b','c','d','e','f','g','h']
+names = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 
 i = 0
 
 for name in names:
-    index = random.randint(0,2)
+    index = random.randint(0, 2)
     offices[index].append(name)
 
 i = 1
@@ -24,7 +24,6 @@ for temNames in offices:
 
     i += 1
     for name in temNames:
-        print(name,end=" ")
+        print(name, end=" ")
     print()
-    print("-"*20)
-
+    print("-" * 20)

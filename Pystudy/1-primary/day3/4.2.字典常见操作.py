@@ -1,14 +1,12 @@
 # 查看元素
 
-#除了使用key来查找元素，还可以使用get来获取数据
+# 除了使用key来查找元素，还可以使用get来获取数据
 
-info = {'name':'吴彦祖','age':18}
+info = {'name': '吴彦祖', 'age': 18}
 
 print(info["age"])
 
 print(info.get("age"))
-
-
 
 # 修改元素
 # 字典中的元素可以修改，只要通过key找到，即可修改
@@ -20,7 +18,6 @@ newId = input('请输入新的学号')
 info['id'] = int(newId)
 
 print('修改之后的id为%d:' % info['id'])
-
 
 # 添加元素
 # 访问不存在的元素
@@ -36,9 +33,8 @@ info['id'] = newId
 
 print('添加之后的id为:%d' % info['id'])
 
-
 # 删除元素
-#　对字典进行删除操作
+# 　对字典进行删除操作
 # del  clear()
 
 

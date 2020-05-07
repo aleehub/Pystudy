@@ -6,19 +6,21 @@
 
 # 根据键访问值
 
-info = {'name':'班长', 'id':100, 'sex':'f', 'address':'地球亚洲中国北京'}
+info = {'name': '班长', 'id': 100, 'sex': 'f', 'address': '地球亚洲中国北京'}
 
 print(info['name'])
 print(info['address'])
 
 # 当访问不存在的键，就会报错
 
-age= info["age"]
+# age = info["age"]
 
-print(age)
+# print(age)
 
-#当我们不确定字典中是否存在某个键而又想获取其值是，可以使用get方法
+# 当我们不确定字典中是否存在某个键而又想获取其值是，可以使用get方法
 
 age = info.get("age")
+
+print(age)
 
 print(type(age))
