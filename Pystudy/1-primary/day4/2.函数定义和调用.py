@@ -21,6 +21,7 @@ def printInfo():
 
 printInfo()
 
+
 # 每次调用函数时，函数都会从头开始执行，当这个函数的代码执行完毕后，意味着调用结束了
 # 当然了如果函数执行到了return 也会结束函数
 
@@ -28,13 +29,11 @@ printInfo()
 # 定义一个函数，能够输出自己的姓名和年龄，并且调用这个函数让它执行
 
 def myinfo():
-
     print("my name is liyuhang")
 
     print("my age is 25 years old")
 
     printInfo()
-
 
 
 myinfo()

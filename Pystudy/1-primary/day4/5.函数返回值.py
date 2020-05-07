@@ -5,11 +5,10 @@
 
 # 带有返回值的函数
 
-def addnum(a,b):
-
+def addnum(a, b):
     c = a + b
 
     return c
 
 
-print(addnum(1,2))
+print(addnum(1, 2))

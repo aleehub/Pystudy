@@ -5,21 +5,20 @@
 import time
 import os
 
-def a():
 
-    print(".",end=" ", flush=True)
+def a():
+    print(".", end=" ", flush=True)
 
     # end 与 time 不兼容
 
 
 def b(num):
-
-    for i in range(num) :
+    for i in range(num):
         time.sleep(0.5)
         a()
 
-b(10)
 
+b(10)
 
 # time函数运行完，才开始运行printLine
 
