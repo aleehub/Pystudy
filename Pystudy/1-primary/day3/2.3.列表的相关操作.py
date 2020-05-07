@@ -21,13 +21,13 @@ for tempName in A:
 # 将另一个集合中的元素逐一添加到列表中，将两个列表中的元素集合到一个列表中
 
 
-a = [1,2]
-b = [3,4]
+a = [1, 2]
+b = [3, 4]
 
 # append 与 extend 的不同之处,将后面的元素作为一个整体加入列表中。
 a.append(b)
 print(a)
-a = [1,2]
+a = [1, 2]
 a.extend(b)
 
 print(a)
@@ -35,8 +35,8 @@ print(a)
 # insert
 # 在指定位置index前插入元素object
 # insert(index,object)
-a = [1,2,3]
-a.insert(1,3)
+a = [1, 2, 3]
+a.insert(1, 3)
 print(a)
 
 # 修改元素
@@ -62,30 +62,28 @@ for tempName in A:
 
 # demo1
 
-nameList = ['xiaoWang','xiaoZhang','xiaoHua']
+nameList = ['xiaoWang', 'xiaoZhang', 'xiaoHua']
 
-#获取用户要查找的名字
+# 获取用户要查找的名字
 
 findName = input('请输入要查找的姓名:')
 
-#查找是否存在
+# 查找是否存在
 
 if findName in nameList:
     print('在字典中找到了相同的名字')
 else:
     print('没有找到')
 
-
 # index count
 # 与字符串中用法相同
 # index(object,start,end)  start end 都是下标
 # 返回查找元素在列表中的下标
 
-a = [0,1,2,3,4,5,6]
+a = [0, 1, 2, 3, 4, 5, 6]
 
-print(a.index(4,1,5))
+print(a.index(4, 1, 5))
 print(a.count(1))
-
 
 # 删除元素(del pop remove)
 # del : 根据下标进行删除
@@ -95,7 +93,7 @@ print(a.count(1))
 # demo(del)
 # del list[x]
 
-a = [0,1,2,3,4,5,6,7,8]
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 del a[4]
 
@@ -109,7 +107,6 @@ a.pop()
 # demo(remove)
 # list.remove(value)
 a.remove(0)
-
 
 # 排序(sort,reverse)
 

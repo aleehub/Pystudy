@@ -6,22 +6,21 @@
 
 mystr = "hello world itcast and itcastcpp"
 
-demo1=mystr.find("itcast",0,len(mystr))
+demo1 = mystr.find("itcast", 0, len(mystr))
 
 print(demo1)
-
 
 # 2.index
 # 类似find,不过当所查字符不在被查字符串中时，就会报一个异常
 
-demo2= mystr.index("itcast",0,len(mystr))
+demo2 = mystr.index("itcast", 0, len(mystr))
 print(demo2)
 
 # 3.count
 # 返回 str在start和end之间 在 mystr里面出现的次数
 # 语法 ： mystr.count(str, start=0, end=len(mystr))
 
-demo3 = mystr.count("itcast",0,len(mystr))
+demo3 = mystr.count("itcast", 0, len(mystr))
 print(demo3)
 
 # 4.replace
@@ -29,13 +28,13 @@ print(demo3)
 # 语法 mystr.replace(str1, str2,  mystr.count(str1))
 
 # replace 不会改变原变量的值，它只是一个方法，可以赋值给一个新变量
-print(mystr.replace("itcast","ithaha"))
+print(mystr.replace("itcast", "ithaha"))
 
 # 5.split
 # 以 str 为分隔符切片 mystr，如果 maxsplit有指定值，则仅分隔 maxsplit 个子字符串
 # mystr.split(str=" ", 2)
 
-name ="heloo ss hol"
+name = "heloo ss hol"
 print(name.split(" "))
 
 # 6.capitalize
@@ -126,10 +125,10 @@ print(name.capitalize())
 # join()方法用于将序列中的元素以指定的字符连接生成一个新的字符串
 # mystr.join(str)
 
-str ="-"
+str = "-"
 
-b = "sss" # 当指定的元素为一个字符串时，则每一个元素为一个单独的元素
+b = "sss"  # 当指定的元素为一个字符串时，则每一个元素为一个单独的元素
 
-c=str.join(b)
+c = str.join(b)
 
 print(c)

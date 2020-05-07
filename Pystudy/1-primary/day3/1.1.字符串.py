@@ -3,7 +3,7 @@
 a = 'my name is lyh'
 b = "my name is ycy"
 
-print(a,b)
+print(a, b)
 
 """
 字符串输出
@@ -18,11 +18,11 @@ print(a,b)
 name = '峰哥'
 age = 33
 
-format_string1 =f'我的名字是{name},我的年龄是{age}'
+format_string1 = f'我的名字是{name},我的年龄是{age}'
 
 # demo2
 
-format_string2 =f'3+5={3+5}'
+format_string2 = f'3+5={3 + 5}'
 
 print(format_string1)
 print(format_string2)
