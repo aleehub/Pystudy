@@ -6,8 +6,7 @@ class SweetPotato(object):
         self.cookedString = "生的"
         self.condiments = []
 
-
-    def cook(self,time):
+    def cook(self, time):
 
         self.cookedLevel += time
 
@@ -27,7 +26,6 @@ class SweetPotato(object):
 
             self.cookedString = "生的"
 
-
     def __str__(self):
         msg = self.cookedString + " 地瓜"
         if len(self.condiments) > 0:
@@ -41,6 +39,7 @@ class SweetPotato(object):
 
     def addCondiments(self, condiments):
         self.condiments.append(condiments)
+
 
 mySweetPotato = SweetPotato()
 print(mySweetPotato.cookedLevel)

@@ -7,17 +7,13 @@ class Hero(object):
 
         print("正在前往事发地点")
 
-
     def attack(self):
-
         """实例方法"""
 
         print("发出一招强力的普通攻击")
 
 
-
 taidamier = Hero()
-
 
 taidamier.name = "泰达米尔"
 
@@ -26,7 +22,6 @@ taidamier.hp = 2600
 taidamier.atk = 450
 
 taidamier.armor = 200
-
 
 print(f"英雄{taidamier.name}的生命值{taidamier.hp}")
 

@@ -1,6 +1,4 @@
-#对象创建并添加熟悉后，能否在类的实例方法里获取这些熟悉？
-
-
+# 对象创建并添加熟悉后，能否在类的实例方法里获取这些熟悉？
 
 
 class Hero(object):
@@ -11,11 +9,8 @@ class Hero(object):
 
         print("正在前往事发地点...")
 
-
     def attack(self):
-
         print("发出一记强有力的普通攻击....")
-
 
     def info(self):
         """ 在类的实例方法中，通过self获取该对象的属性"""
@@ -34,7 +29,6 @@ taidamier.hp = 2600
 taidamier.atk = 450
 
 taidamier.armor = 200
-
 
 taidamier.info()
 

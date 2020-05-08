@@ -1,7 +1,6 @@
 # 当创建一个对象时，如果被实例化的类没有定义__str__()方法时，打印该对象时，则会默认打印该对象的内存地址，而如果定义了该方法，就会打印该方法返回的值
 
 
-
 class Hero(object):
     """定义了一个英雄类，可以移动和攻击"""
 
@@ -12,7 +11,7 @@ class Hero(object):
         # 技能
         self.skill = skill
         # 生命值：
-        self.hp = hp   # 实例变量
+        self.hp = hp  # 实例变量
         # 攻击力
         self.atk = atk
         # 护甲值
@@ -30,7 +29,6 @@ class Hero(object):
     #     print("英雄 %s 的生命值 :%d" % (self.name, self.hp))
     #     print("英雄 %s 的攻击力 :%d" % (self.name, self.atk))
     #     print("英雄 %s 的护甲值 :%d" % (self.name, self.armor))
-
 
     def __str__(self):
         """

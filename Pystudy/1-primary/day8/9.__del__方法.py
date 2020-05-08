@@ -2,6 +2,7 @@
 #
 # 当删除对象时，python解释器也会默认调用一个方法，这个方法为__del__()方法
 
+
 class Hero(object):
 
     # 初始化方法
@@ -21,28 +22,23 @@ taidamier = Hero("泰达米尔")
 
 # 删除对象
 print("%d 被删除1次" % id(taidamier))
-del(taidamier)
-
+del (taidamier)
 
 print("--" * 10)
-
 
 gailun = Hero("盖伦")
 gailun1 = gailun
 gailun2 = gailun
 
 print("%d 被删除1次" % id(gailun))
-del(gailun)
+del (gailun)
 
 print("%d 被删除1次" % id(gailun1))
-del(gailun1)
+del (gailun1)
 
 print("%d 被删除1次" % id(gailun2))
-del(gailun2)
-
-
+del (gailun2)
 
 # 当有变量保存了一个对象的引用时，此对象的引用计数就会加1
-
-# 当使用del()删除变量指向的对象的引用次数。如果对象的引用计数不为1，那么会让这个对象的引用计数减1，
+# 当使用del()删除变量指向的对象的引用次数。如果对象的引用计数不为1，那么会让这个对象的引用计数减1
 # 当对象的引用次数为0，则对象才会真正被删除
