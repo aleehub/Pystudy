@@ -4,6 +4,7 @@ import os
 
 info_list = []
 
+
 def print_menu():
     print("---------------------------")
     print("      学生管理系统 V1.0")
@@ -14,6 +15,7 @@ def print_menu():
     print(" 5:显示所有学生")
     print(" 6:退出系统")
     print("---------------------------")
+
 
 def add_new_info():
     "添加用户信息"
@@ -27,16 +29,16 @@ def add_new_info():
     for tem_info in info_list:
 
         if tem_info["name"] == new_name:
-
             print("用户名重复")
             return
-
     info = {}
+
     info["name"] = new_name
     info["tel"] = new_tel
     info["qq"] = new_qq
 
     info_list.append(info)
+
 
 def del_info():
     "删除用户信息"
@@ -61,12 +63,13 @@ def modify_info():
     if 0 <= modify_num < len(info_list):
         print("你要修改的信息是:")
         print("name:%s, tel:%s, QQ:%s" % (info_list[modify_num]['name'],
-        info_list[modify_num]['tel'],info_list[modify_num]['qq']))
+                                          info_list[modify_num]['tel'], info_list[modify_num]['qq']))
         info_list[modify_num]['name'] = input("请输入新的姓名:")
         info_list[modify_num]['tel'] = input("请输入新的手机号:")
         info_list[modify_num]['qq'] = input("请输入新QQ:")
     else:
         print("输入序号有误,请重新输入")
+
 
 def search_info():
     """查询学生信息"""
@@ -75,7 +78,7 @@ def search_info():
         if temp_info['name'] == search_name:
             print("查询到的信息如下:")
             print("name:%s, tel:%s, QQ:%s" % (temp_info['name'],
-                temp_info['tel'], temp_info['qq']))
+                                              temp_info['tel'], temp_info['qq']))
             break
     else:
         print("没有您要找的信息....")
@@ -89,6 +92,7 @@ def print_all_info():
         # temp是一个字典
         print("%d\t%s\t\t%s\t\t%s" % (i, temp['name'], temp['tel'], temp['qq']))
         i += 1
+
 
 def main():
     """用来控制整个流程"""
@@ -122,7 +126,6 @@ def main():
                 break
         else:
             print("输入有误,请重新输入......")
-
 
         input("\n\n\n按回车键继续....")
         os.system("clear")  # 调用Linux命令clear完成清屏

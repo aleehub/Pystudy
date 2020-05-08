@@ -5,12 +5,10 @@
 
 
 # 不带参数
-my_fun = lambda : 10 + 20
+my_fun = lambda: 10 + 20
 # 带参数
 my_add = lambda a, b: a + b
-my_add()
-
-
+print(my_add(1, 2))
 
 # 匿名函数中不能使用 if 语句、while 循环、for 循环, 只能编写单行的表达式，或函数调用, 普通函数都可以.
 # 匿名函数中返回结果不需要使用 return, 表达式的运行结果就是返回结果, 普通函数返回结果必须 return.
