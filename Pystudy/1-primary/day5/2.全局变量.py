@@ -8,12 +8,12 @@
 # 局部定义一个与全局变量相同名字的变量时。不会对全局变量进行改变
 
 
-
 # 当在函数内部想修改全局变量时，在函数内部 变量前加入globe关键字
 
 # demo
 
 a = 100
+
 
 def test1():
     global a
@@ -24,8 +24,8 @@ def test1():
 
     print(a)
 
-def test2():
 
+def test2():
     print(a)
 
 
@@ -43,14 +43,17 @@ test2()
 a = 100
 b = 20
 
+
 def test1():
-    global a,b
+    global a, b
     print(a)
     a = 200
     print(a)
 
+
 def test2():
     print(a)
+
 
 test1()
 test2()

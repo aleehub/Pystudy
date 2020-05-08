@@ -1,8 +1,8 @@
 # 对返回的数据直接拆包
 
-#　当返回的值是一个元组时，可以直接将返回值赋值给元组中元素数量的变量
+# 　当返回的值是一个元组时，可以直接将返回值赋值给元组中元素数量的变量
 
-#demo
+# demo
 
 def get_my_info():
     high = 178
@@ -11,10 +11,12 @@ def get_my_info():
     return high, weight, age
 
 
-# result = get_my_info()
-# print(result)
+result = get_my_info()
+print(result)
 
-my_high, my_weight, my_age = get_my_info()
+# my_high, my_weight, my_age = get_my_info()
+my_high, my_weight, my_age = (178, 100, 18)
+
 print(my_high)
 print(my_weight)
 print(my_age)
@@ -28,9 +30,9 @@ print(my_age)
 
 # 三种方式
 
-a , b = 4,5
+a, b = 4, 5
 
-a,b = b,a
+a, b = b, a
 
 print(a)
 print(b)
