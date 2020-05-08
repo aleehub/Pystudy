@@ -6,8 +6,7 @@ oldFileName = input("请输入旧文件的名字：")
 
 index = oldFileName.rfind(".")
 
-newFileName = oldFileName[:index]+"[备份]"+oldFileName[index:]
-
+newFileName = oldFileName[:index] + "[备份]" + oldFileName[index:]
 
 f = open(oldFileName)
 
@@ -15,7 +14,7 @@ content = f.readlines()
 
 f.close()
 
-f = open(newFileName,"w")
+f = open(newFileName, "w")
 
 for i in content:
     f.write(i)

@@ -6,7 +6,6 @@ foldName = ''
 
 dirList = os.listdir(foldName)
 
-
 for name in dirList:
     print(name)
 
@@ -15,9 +14,7 @@ for name in dirList:
     index3 = name.rfind(".")
     if funflag == 1:
 
-        newName = name[:index1]+"("+name[index1+1:index2]+")"+name[index3:]
-
-
+        newName = name[:index1] + "(" + name[index1 + 1:index2] + ")" + name[index3:]
 
     elif funflag == 2:
 
@@ -26,7 +23,4 @@ for name in dirList:
 
     print(newName)
 
-
-    os.rename(foldName+"/"+name,foldName+"/"+newName)
-
-
+    os.rename(foldName + "/" + name, foldName + "/" + newName)

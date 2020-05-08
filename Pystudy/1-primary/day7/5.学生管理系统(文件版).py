@@ -64,7 +64,7 @@ def modify_info():
     if 0 <= modify_num < len(info_list):
         print("你要修改的信息是:")
         print("name:%s, tel:%s, QQ:%s" % (info_list[modify_num]['name'],
-            info_list[modify_num]['tel'],info_list[modify_num]['qq']))
+                                          info_list[modify_num]['tel'], info_list[modify_num]['qq']))
         info_list[modify_num]['name'] = input("请输入新的姓名:")
         info_list[modify_num]['tel'] = input("请输入新的手机号:")
         info_list[modify_num]['qq'] = input("请输入新QQ:")
@@ -79,7 +79,7 @@ def search_info():
         if temp_info['name'] == search_name:
             print("查询到的信息如下:")
             print("name:%s, tel:%s, QQ:%s" % (temp_info['name'],
-                temp_info['tel'], temp_info['qq']))
+                                              temp_info['tel'], temp_info['qq']))
             break
     else:
         print("没有您要找的信息....")
@@ -109,6 +109,7 @@ def load_data():
     content = f.read()
     info_list = eval(content)
     f.close()
+
 
 def main():
     """用来控制整个流程"""
@@ -150,9 +151,9 @@ def main():
         else:
             print("输入有误,请重新输入......")
 
-
         input("\n\n\n按回车键继续....")
         os.system("clear")  # 调用Linux命令clear完成清屏
+
 
 # 程序的开始
 main()
