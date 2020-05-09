@@ -11,11 +11,14 @@
 #   2.类的私有属性 和 私有方法，都不会被子类继承，子类也无法访问；
 #   3.私有属性 和 私有方法 往往用来处理类的内部事情，不通过对象处理，起到安全作用。
 
+
 class Master(object):
     def __init__(self):
         self.kongfu = "古法煎饼果子配方"
+
     def make_cake(self):
         print("[古法] 按照 <%s> 制作了一份煎饼果子..." % self.kongfu)
+
 
 class Prentice(Master):
     def __init__(self):
@@ -37,12 +40,11 @@ class Prentice(Master):
         super().make_cake()
 
 
-
 class PrenticePrentice(Prentice):
     pass
 
 
-damao = Prentice() # 类中的 私有属性 和私有方法 都不能 被该类实例化的对象所访问,只能在类中访问
+damao = Prentice()  # 类中的 私有属性 和私有方法 都不能 被该类实例化的对象所访问,只能在类中访问
 # 对象不能访问私有权限的属性和方法
 # print(damao.__money)
 # damao.__print_info()

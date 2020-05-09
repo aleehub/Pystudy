@@ -9,35 +9,30 @@
 # 5. 输除房子信息时，可以显示房子的地址、占地面积、剩余面积
 
 
-
 class Home(object):
 
-    def __init__(self,area):
+    def __init__(self, area):
 
         self.area = area
 
         self.containsItem = []
 
-
     def __str__(self):
 
-        msg = "当前房间可用面积为："+str(self.area)
+        msg = "当前房间可用面积为：" + str(self.area)
 
         if len(self.containsItem) > 0:
 
             msg = msg + ",容纳的物品有："
 
             for temp in self.containsItem:
-
                 msg = msg + temp.getName() + ","
 
             msg = msg.strip(",")
 
         return msg
 
-
-
-    def accommodateItem(self,item):
+    def accommodateItem(self, item):
 
         needArea = item.getUserArea()
 
@@ -55,29 +50,21 @@ class Home(object):
 
 class Bed(object):
 
+    def __init__(self, area, name="床"):
+        self.name = name
 
-     def __init__(self,area,name = "床"):
+        self.area = area
 
-            self.name = name
+    def __str__(self):
+        msg = "床的面具为" + str(self.area)
 
-            self.area = area
+        return msg
 
+    def getUserArea(self):
+        return self.area
 
-     def __str__(self):
-
-            msg = "床的面具为" + str(self.area)
-
-            return msg
-
-     def getUserArea(self):
-
-         return self.area
-
-
-     def getName(self):
-
-         return self.name
-
+    def getName(self):
+        return self.name
 
 
 newHome = Home(100)
@@ -92,7 +79,7 @@ newHome.accommodateItem(newBed1)
 
 print(newHome)
 
-newBed2 = Bed(12,"席梦思")
+newBed2 = Bed(12, "席梦思")
 
 print(newBed2)
 
@@ -100,9 +87,4 @@ newHome.accommodateItem(newBed2)
 
 print(newHome)
 
-
 # 如果一个对象与另外一个对象有一定的关系，那么一个对象可用是另一个对象的属性
-
-
-
-

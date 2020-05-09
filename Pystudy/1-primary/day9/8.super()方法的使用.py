@@ -1,5 +1,6 @@
 # super()的使用
 
+
 class Master(object):
     def __init__(self):
         self.kongfu = "古法煎饼果子配方"  # 实例变量，属性
@@ -17,8 +18,9 @@ class School(Master):
         super().__init__()  # 执行父类的构造方法
         super().make_cake()  # 执行父类的1实例方法。
 
+
 # 父类是 School 和 Master
-class Prentice(School,Master):  # 多继承，继承了多个父类
+class Prentice(School, Master):  # 多继承，继承了多个父类
     def __init__(self):
         self.kongfu = "猫氏煎饼果子配方"
 
@@ -49,16 +51,14 @@ class Prentice(School,Master):  # 多继承，继承了多个父类
         super().make_cake()  # 执行父类的 实例方法
         self.make_cake()  # 执行本类的实例方法
 
+
 print(Prentice.__mro__)
 
 damao = Prentice()
 
 damao.make_all_cake()
 
-
 # 子类继承多个父类，如果父类类名修改了，那么子类也要涉及多次修改。而且需要重复写多次调用，
 # 显得代码臃肿
-
 # 使用super()可以逐一调用所有父类方法，并且只执行一次。调用顺序遵循mro类属性的顺序
-
-## 如果继承多个父类，切父类都有同名方法，则默认只执行第一个父类的（同名方法只执行一次，目前super()不支持执行多个父类的同名方法)
+# 如果继承多个父类，切父类都有同名方法，则默认只执行第一个父类的（同名方法只执行一次，目前super()不支持执行多个父类的同名方法)

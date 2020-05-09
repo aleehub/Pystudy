@@ -20,22 +20,20 @@ class Prentice(School, Master):  # 多继承，继承了多个父类
         self.money = 10000  # 亿美金
 
     def make_cake(self):
-        self.__init__() # 执行本类的__init__方法，做属性初始化 self.kongfu = "猫氏...."
+        self.__init__()  # 执行本类的__init__方法，做属性初始化 self.kongfu = "猫氏...."
         print("[猫氏] 按照 <%s> 制作了一份煎饼果子..." % self.kongfu)
-
 
     # 调用父类方法格式：父类类名.父类方法(self)
     def make_old_cake(self):
-        Master.__init__(self) # 调用了父类Master的__init__方法 self.kongfu = "古法...."
-        Master.make_cake(self) # 调用了父类Master的实例方法
-
+        Master.__init__(self)  # 调用了父类Master的__init__方法 self.kongfu = "古法...."
+        Master.make_cake(self)  # 调用了父类Master的实例方法
 
     def make_new_cake(self):
-        School.__init__(self) # 调用了父类School的__init__方法 self.kongfu = "现代...."
-        School.make_cake(self) # 调用父类School的实例方法，
+        School.__init__(self)  # 调用了父类School的__init__方法 self.kongfu = "现代...."
+        School.make_cake(self)  # 调用父类School的实例方法，
 
 
-class PrenticePrentice(Prentice): # 多层继承
+class PrenticePrentice(Prentice):  # 多层继承
     pass
 
 

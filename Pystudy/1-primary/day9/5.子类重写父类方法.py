@@ -16,7 +16,6 @@ class School(object):
         print("[现代] 按照 <%s> 制作了一份煎饼果子..." % self.kongfu)
 
 
-
 class Prentice(School, Master):  # 多继承，继承了多个父类
 
     def __init__(self):
@@ -26,7 +25,6 @@ class Prentice(School, Master):  # 多继承，继承了多个父类
         print("[猫氏] 按照 <%s> 制作了一份煎饼果子..." % self.kongfu)
 
 
-
 damao = Prentice()
 
 print(damao.kongfu)
@@ -34,5 +32,3 @@ print(damao.kongfu)
 damao.make_cake()
 
 print(Prentice.__mro__)  # 魔法方法__mro__ 是类的方法，对象没有这个属性
-
-
