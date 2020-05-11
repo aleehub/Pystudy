@@ -52,7 +52,7 @@ damao = Prentice()  # 类中的 私有属性 和私有方法 都不能 被该类
 #
 pp = PrenticePrentice()
 
-# # 子类不能继承父类私有权限的属性和方法
+# 子类不能继承父类私有权限的属性和方法
 # print(pp.__money)
 # pp.__print_info()
 

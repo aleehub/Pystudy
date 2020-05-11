@@ -7,10 +7,10 @@
 # 2. 子类重写父类中的方法
 # 3. 通过对象调用这个方法
 
+
 class Father():
 
     def cure(self):
-
         print("父亲给病人治病")
 
 
@@ -21,7 +21,6 @@ class Son(Father):
 
 
 def call_cure(doctor):
-
     doctor.cure()
 
 
@@ -29,7 +28,6 @@ def call_cure(doctor):
 father = Father()
 
 call_cure(father)
-
 
 # 创建子类对象
 
@@ -39,6 +37,3 @@ call_cure(son)
 
 # 多态的好处:
 # 调用call_cure()函数时,传递的是哪个对象,在函数里面就会调用那个对象的cure()方法.
-
-
-
